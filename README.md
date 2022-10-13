@@ -7,7 +7,7 @@ This is the test automation for the Oppenheimer Project using robot framework.
 
 ## Pre-requisites
 * Install google chrome
-* Python 3.8.5
+* Python 3.10
 * Dependencies installed `pip install -r requirements.txt`
 * Chrome web driver added to path environment variable.
 
