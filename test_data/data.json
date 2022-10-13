@@ -1,0 +1,18 @@
+[
+  {
+    "natid": "1111111111",
+    "name": "John Doe",
+    "gender": "M",
+    "salary": "1001",
+    "birthday": "10102000",
+    "tax": "10"
+  },
+  {
+    "natid": "2222222222",
+    "name": "Jane Doe",
+    "gender": "F",
+    "salary": "989",
+    "birthday": "10102000",
+    "tax": "71"
+  }
+]

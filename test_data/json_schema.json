@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "JSON schema of the response of get tax relief",
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "natid": {"type": "string", "minLength": 1},
+        "name": {"type": "string", "minLength": 1},
+        "relief": {"type": "string", "minLength": 1}
+      },
+      "required": ["natid", "name", "relief"]
+    }
+  ]
+}

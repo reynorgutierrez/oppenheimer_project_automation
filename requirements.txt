@@ -1,0 +1,5 @@
+robotframework~=5.0.1
+robotframework-seleniumlibrary~=6.0.0
+robotframework-requests~=0.9.3
+robotframework-jsonlibrary~=0.5
+locust~=2.12.1
