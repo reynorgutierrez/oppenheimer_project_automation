@@ -27,7 +27,7 @@ Add single existing data to the database via API
     [Template]  Add single entry to database via API and verify in UI
     ${upload_files_path}\\single_entry.json     202     success     existing
 
-Add single invalid file type to the database via API
+Add single invalid data to the database via API
     [Tags]  Acceptance
     [Template]  Add single entry to database via API and verify in UI
     ${upload_files_path}\\text_file.txt     400     error   ${EMPTY}
@@ -57,7 +57,7 @@ Add multiple valid json data to the database via API
     [Template]  Add multiple entries to database via API and verify in UI
     ${upload_files_path}\\text_file.txt     400      error      ${EMPTY}
 
-Add invalid file type to the database via multiple entries API
+Add invalid data to the database via multiple entries API
     [Tags]  Acceptance
     [Template]  Add multiple entries to database via API and verify in UI
     ${upload_files_path}\\text_file.txt     400     error       ${EMPTY}
